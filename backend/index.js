@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
 const jwt = require('jsonwebtoken')
@@ -13,7 +14,7 @@ app.use(cors({
 }))
 
 async function main() {
-    await mongoose.connect(process.env.MONGO_URI || "mongodb://127.0.0.1:27017/Scholarseek");
+    await mongoose.connect(process.env.MONGO_URI );
     console.log("Connected to DB")
 }
 

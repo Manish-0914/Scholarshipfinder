@@ -1,27 +1,90 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto', sans-serif;
-}
-:root {
-    --primary-color: #4a90e2;
-    --secondary-color: #f5f5f5;
-    --text-color: #333;
-    --background-color: #f9f9f9 !important;
-    width: 100vw;
-    margin: 0;
+/* Reset and base font */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', 'Roboto', sans-serif;
+  box-sizing: border-box;
 }
 
-.App{
-    overflow: scroll;
-    height: 100vh;
-    background: linear-gradient(135deg, #1a1a1a 0%, #3c0000 50%, #000000 100%);
-    /* background: linear-gradient(135deg, #8f8d8d 0%, #918989 50%, #a87575 100%); */
-    overflow: scroll;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    width: 100vw;
+/* Root variables for easy theme customization */
+:root {
+  --primary-color: #3b82f6;       /* Vibrant blue */
+  --secondary-color: #e0e7ff;     /* Light periwinkle */
+  --accent-color: #f97316;        /* Warm orange accent */
+  --text-color: #1f2937;          /* Dark slate gray */
+  --background-color: #f9fafb;    /* Soft off-white */
+  --font-base-size: 16px;
+  --font-large-size: 1.25rem;     /* ~20px */
+  --font-small-size: 0.875rem;    /* ~14px */
+}
+
+/* Main app container */
+.App {
+  overflow-y: auto;
+  height: 100vh;
+  background: linear-gradient(135deg, #e0e7ff 0%, #93c5fd 50%, #3b82f6 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100vw;
+  padding: 20px;
+  color: var(--text-color);
+}
+
+/* Example heading style */
+h1, h2, h3 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: var(--primary-color);
+  font-family: 'Montserrat', 'Poppins', sans-serif;
+}
+
+/* Paragraph text */
+p, span, label {
+  font-size: var(--font-base-size);
+  line-height: 1.5;
+  color: var(--text-color);
+}
+
+/* Buttons */
+button {
+  background-color: var(--accent-color);
+  color: white;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 6px;
+  font-size: var(--font-base-size);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ea580c; /* Darker orange */
+}
+
+/* Inputs and textareas */
+input, textarea {
+  font-size: var(--font-base-size);
+  padding: 0.5rem;
+  border: 1px solid #cbd5e1; /* light border */
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 1rem;
+  outline-color: var(--primary-color);
+}
+
+/* Scrollbar styling (for modern browsers) */
+.App::-webkit-scrollbar {
+  width: 8px;
+}
+
+.App::-webkit-scrollbar-thumb {
+  background-color: var(--primary-color);
+  border-radius: 4px;
+}
+
+.App::-webkit-scrollbar-track {
+  background-color: var(--secondary-color);
 }
