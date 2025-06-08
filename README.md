@@ -1,6 +1,6 @@
 # 🎓 Scholarship Finder
 
-A full-stack application to help students find scholarships.
+A full-stack web application to help students find scholarships.
 
 ---
 
