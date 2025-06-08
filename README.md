@@ -14,30 +14,31 @@ Follow the steps below to run the project locally on your machine.
 
 git clone https://github.com/Manish-0914/Scolarshipfinder
 cd ScholarshipFinder
-🖥️ Run the Backend
-bash
-Copy
-Edit
+
+
+##  🖥️ Run the Backend
+
 cd backend
 npm install
 npm start
-🌐 Run the Frontend
+
+###  🌐 Run the Frontend
 Open a new terminal and run:
 
-bash
-Copy
-Edit
 cd scholarship-finder
 npm install
 npm run dev
-🛠️ Tech Stack
+
+
+## 🛠️ Tech Stack
 Frontend: React, Vite
 
 Backend: Node.js, Express
 
 Database: MongoDB (via MongoDB Atlas)
 
-🤝 Contributing
+##  🤝 Contributing
+
 Fork the repo
 
 Create your feature branch (git checkout -b feature/my-feature)
@@ -48,7 +49,8 @@ Push to the branch (git push origin feature/my-feature)
 
 Open a pull request
 
-📄 License
+##  📄 License
+
 This project is licensed under the MIT License.
 
 
