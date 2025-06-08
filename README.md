@@ -54,9 +54,7 @@ Push to the branch (git push origin feature/my-feature)
 
 Open a pull request
 
-##  📄 License
 
-This project is licensed under the MIT License.
 
 
 
