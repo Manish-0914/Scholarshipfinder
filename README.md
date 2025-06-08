@@ -6,7 +6,7 @@ A full-stack web application to help students find scholarships.
 
 ## 🚀 Run Locally
 
-Follow the steps below to run the project locally on your machine.
+Follow the steps below to run the project locally on your computer.
 
 ---
 
