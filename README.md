@@ -13,20 +13,25 @@ Follow the steps below to run the project locally on your machine.
 ### 📦 Clone the Repository
 
 git clone https://github.com/Manish-0914/Scolarshipfinder
+
 cd ScholarshipFinder
 
 
 ###  🖥️ Run the Backend
 
 cd backend
+
 npm install
+
 npm start
 
 ###  🌐 Run the Frontend
 Open a new terminal and run:
 
 cd scholarship-finder
+
 npm install
+
 npm run dev
 
 
