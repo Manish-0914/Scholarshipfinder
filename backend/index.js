@@ -14,7 +14,7 @@ app.use(cors({
 }))
 
 async function main() {
-    await mongoose.connect(process.env.MONGO_URI );
+    await mongoose.connect(process.env.MONGO_URI || "mongodb+srv://manishkumars0914:9491365253@cluster0.fynhnbi.mongodb.net/" );
     console.log("Connected to DB")
 }
 
