@@ -12,7 +12,6 @@ Follow the steps below to run the project locally on your machine.
 
 ### 📦 Clone the Repository
 
-```bash
 git clone https://github.com/Manish-0914/Scolarshipfinder
 cd ScholarshipFinder
 🖥️ Run the Backend
@@ -51,14 +50,6 @@ Open a pull request
 
 📄 License
 This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
----
-
-Let me know if you'd like to include screenshots, deployment steps, or environment variable setup instructions!
 
 
 
