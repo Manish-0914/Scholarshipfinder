@@ -16,7 +16,7 @@ git clone https://github.com/Manish-0914/Scolarshipfinder
 cd ScholarshipFinder
 
 
-##  🖥️ Run the Backend
+###  🖥️ Run the Backend
 
 cd backend
 npm install
