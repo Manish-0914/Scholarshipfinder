@@ -12,7 +12,7 @@ Follow the steps below to run the project locally on your computer.
 
 ### 📦 Clone the Repository
 
-git clone https://github.com/Manish-0914/Scolarshipfinder
+git clone https://github.com/Manish-0914/Scholarshipfinder
 
 cd ScholarshipFinder
 
